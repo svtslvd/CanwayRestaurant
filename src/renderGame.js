@@ -21,6 +21,6 @@ function renderLife(matrix) {
             }
         }
     }
-}
+};
 
 export {renderLife};

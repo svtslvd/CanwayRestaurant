@@ -28,7 +28,6 @@ const GameRules = {
   }
 };
 
-
 function createRandomBoard(LifeIndex,rows,cols){
     return Array.from({length: rows}, ()=>Array.from({length: cols}, ()=>randomState(LifeIndex)));
 };
@@ -47,6 +46,22 @@ function updateBoard(board,rows,cols){
     return next;
 };
 
+function createRandomBoardWithImg(LifeIndex,rows,cols,img){
+    console.log(img[20][20]);
+    return Array.from({ length: rows }, (_, y) => Array.from({ length: cols }, (_, x) => randomStateWithImg(LifeIndex, img[y][x])));
+};
+
+function randomStateWithImg(LifeIndex,color){
+    if (color == "198183190"){
+        const state = +(Math.random()>(1-LifeIndex));
+        return state;
+    };
+    if (color == "2372836") return 0;
+    if (color == "8690117") return 1;
+    console.log("image load error");
+};
+
+
 function randomState(LifeIndex){
     const state = +(Math.random()>(1-LifeIndex));
     return state;
@@ -63,4 +78,4 @@ function countlifeNeighbors(row, col, board,rows,cols){
     return c;
 };
 
-export {createRandomBoard, updateBoard};
+export {createRandomBoard, createRandomBoardWithImg, updateBoard};

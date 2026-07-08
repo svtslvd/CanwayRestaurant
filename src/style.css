@@ -47,6 +47,11 @@ nav{
     font-size: 20px;
     cursor: pointer;
 }
+.Hdish{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .navigationBtn:hover, .SelectedBtn{
     background-color: #c5c5c5;
 }
@@ -91,4 +96,11 @@ nav{
     text-align: center;
     margin-bottom: 2.5rem;
     font-style: italic;
+}
+
+.game-container{
+    border: 1px solid black;
+    border-top: none;
+    width: var(--screen-height);
+    height: var(--screen-height);
 }

@@ -31,18 +31,18 @@ function loadContentMenuPage(){
         <h2> Prime Consequences (Entrées)</h2>
         
         <div class="menu-item">
-            <h3>Conway’s Premium Steak</h3>
+            <h3 class ="Hdish" id="steak">Conway’s Premium Steak</h3>
             <p>The fierce interaction of fire and aged Ribeye. The truffle butter here is not a chef's choice, but the singular, harmonious resolution towards which this cut of beef has always gravitated.</p>
         </div>
         
         <div class="menu-item">
-            <h3>Seared Salmon with Citrus Reduction</h3>
-            <p>The ancient movement of ocean currents and the slow ripening of grapefruit beneath the sun meet upon a bed of wild rice. A dish whose architecture was written into the laws of nature long ago.</p>
+            <h3 class ="Hdish" id="pizza">The Cosmic Pizza Grid</h3>
+            <p>A perfectly synchronized matrix of melted mozzarella and rich tomato reduction. Each slice obeys the absolute laws of culinary geometry, where toppings expand or collapse in flawless symmetry.</p>
         </div>
         
         <div class="menu-item">
-            <h3>"Hand-Crafted" Wild Mushroom Pasta</h3>
-            <p>House-made tagliatelle that has absorbed the quiet energy of the forest through a rich, velvety sauce. A flavor profile impossible to alter or forget.</p>
+            <h3 class ="Hdish" id="burger">The Gravity Burger</h3>
+            <p>A towering collision of a flame-grilled beef patty and sharp cheddar. Bound by an inescapable culinary attraction between two brioche buns, creating a flavor profile impossible to alter.</p>
         </div>
     </div>
 
@@ -50,13 +50,13 @@ function loadContentMenuPage(){
         <h2> Elements of Equilibrium (Appetizers & Salads)</h2>
         
         <div class="menu-item">
-            <h3>Caramelized Pear & Dourblu Salad</h3>
-            <p>Opposites condemned to unity. The crisp sweetness of pear and the sharp bite of blue cheese balance one another as irrevocably as night succeeds day.</p>
+            <h3 class ="Hdish" id="hotdog">The Linear Hot Dog</h3>
+            <p>An elegant, straightforward vector of flavor. The precise alignment of a premium grilled sausage nestled inside a warm bun, drizzled with a mathematically perfect wave of mustard.</p>
         </div>
         
         <div class="menu-item">
-            <h3>Stracciatella Bruschetta</h3>
-            <p>The crunch of toasted baguette yields to the pressure of the knife, releasing a pre-destined harmony of creamy stracciatella, sun-dried tomatoes, and basil. The physics of destruction for the sake of creation.</p>
+            <h3 class ="Hdish" id="cuptea">A Cup of Infinite Tea</h3>
+            <p>The gentle, irreversible diffusion of dried leaves into boiling water. A quiet state of liquid equilibrium that captures the passing of time within a single warm porcelain vessel.</p>
         </div>
     </div>
 
@@ -64,7 +64,7 @@ function loadContentMenuPage(){
         <h2> The Sweet Entropy (Desserts)</h2>
         
         <div class="menu-item">
-            <h3>Signature Chocolate Fondant</h3>
+            <h3 class ="Hdish" id="chocolate">Signature Chocolate Fondant</h3>
             <p>A warm, liquid core that obeys the absolute law of gravity, flowing outward the exact millisecond your spoon breaks the surface. Perfect thermodynamic sweetness.</p>
         </div>
     </div>`;
