@@ -9,7 +9,6 @@ body {
     line-height: 1.6;        
     letter-spacing: -0.01em;
 }
-
 #main-container{
     display: flex;
 }
@@ -34,7 +33,6 @@ nav{
     align-content: center;
     justify-content: center;
 }
-
 .navigationBtn{
     position: relative;
     width: 80px;
@@ -51,11 +49,9 @@ nav{
     cursor: pointer;
     text-decoration: underline;
 }
-
 .navigationBtn:hover, .SelectedBtn{
     background-color: #c5c5c5;
 }
-
 #content{
     display: flex;
     justify-content: center;
@@ -70,7 +66,6 @@ nav{
     border-top: none;
     overflow-y: auto;
 }
-
 .HeaderText{
     position: absolute;
     margin: 0;
@@ -85,11 +80,9 @@ nav{
 .RestaurantName{
     left: 5%;
 }
-
 .ConwayLink{
     right: 5%;
 }
-
 .subtitle {
     font-size: 1.1rem;
     color: #4f4f4f;
@@ -97,7 +90,6 @@ nav{
     margin-bottom: 2.5rem;
     font-style: italic;
 }
-
 .game-container{
     border: 1px solid black;
     border-top: none;

@@ -47,17 +47,16 @@ function updateBoard(board,rows,cols){
 };
 
 function createRandomBoardWithImg(LifeIndex,rows,cols,img){
-    console.log(img[20][20]);
     return Array.from({ length: rows }, (_, y) => Array.from({ length: cols }, (_, x) => randomStateWithImg(LifeIndex, img[y][x])));
 };
 
 function randomStateWithImg(LifeIndex,color){
-    if (color == "198183190"){
+    if (color == 2){
         const state = +(Math.random()>(1-LifeIndex));
         return state;
     };
-    if (color == "2372836") return 0;
-    if (color == "8690117") return 1;
+    if (color == 0) return 0;
+    if (color == 1) return 1;
     console.log("image load error");
 };
 
